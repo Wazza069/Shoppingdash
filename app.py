@@ -32,7 +32,7 @@ def run():
         df.set_index("Customer_ID", inplace=True)
         return df
 
-    df = load_data("shopping_trends_updated.csv")
+    df = load_data("data/shopping_trends_updated.csv")
 
     st.markdown(
         """
